@@ -1,6 +1,6 @@
 # Hive Replication Tool
 
-This project implements a near real-time replication tool for Apache Hive, designed as an alternative to Cloudera BDR for CDP 7.1.9. It focuses on replicating external Hive tables between two clusters running the same version of CDP.
+Noticed several issues while using Cloudera BDR. When multiple databases are being replicated, we have to chose snapshot creation at DB level and it is not ideal when we have many DB's. This project is an attempt to implement a near real-time replication tool for Apache Hive, designed as an alternative to Cloudera BDR for CDP 7.1.9. It focuses on replicating external Hive tables between two clusters running the same version of CDP.
 
 ## Components
 
